@@ -62,8 +62,8 @@ def yelp_parser(url):
     print name, phone, rate, price, zipcode, state, city, addr, delivery, takeout, outdoor, parking, wifi
 
 if __name__ == "__main__":
+    # take this url as example for the yelp website crawler
     yelp_parser('https://www.yelp.com/biz/ninis-deli-chicago?hrid=W3HHQtfPwL4ivYAK7yy97A')
-    yelp_parser('https://www.yelp.com/biz/antico-chicago')
 
 
 
